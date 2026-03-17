@@ -56,7 +56,6 @@ The app exposes:
 - **Open banking & external integrations**
   - Bank account aggregation and transaction sync via `nordigen-ruby` (open banking)
   - Background jobs (Sidekiq + `sidekiq-scheduler`) to periodically fetch and reconcile data
-  - Support for payment providers such as **EasyPay** and **PayPal** (see docs in `docs/`)
 
 - **Admin & monitoring**
   - Admin dashboard for admins, users and consents
