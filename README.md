@@ -152,16 +152,23 @@ Check `docs/setup.md` for more details and platform‑specific hints.
 
 3. **Install dependencies and set up the database**
 
+   Project JavaScript dependencies are installed with Yarn: run 
+```bash
+yarn install
+```
+
+   Install Foreman with 
    ```bash
-   bin/setup
-   ```
+   yarn global add foreman
+```
+
 
 ### Running the App
 
 Start the application with:
 
 ```bash
-bin/dev
+foreman -s
 ```
 
 Then open `http://localhost:3000` in your browser.
