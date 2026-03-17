@@ -87,12 +87,7 @@ The app exposes:
   - `kamal` for container‑based deployments
   - `thruster` for HTTP performance on Puma
   - Docker configuration for local containers
-
-- **Testing & Quality**
-  - RSpec, Capybara, Selenium, FactoryBot
-  - RuboCop, ERB Lint, ESLint, Stylelint
-  - Brakeman, Bundler‑Audit
-
+    
 ---
 
 ## Architecture & Domain Concepts
